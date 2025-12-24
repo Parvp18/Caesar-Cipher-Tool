@@ -22,9 +22,8 @@ def caesar_cipher(text, shift, mode):
 
     return result
 
-
-# -------- Main Program --------
-print("🔐 Caesar Cipher Tool")
+# Main Program 
+print("Caesar Cipher Tool")
 choice = input("Type 'encrypt' or 'decrypt': ").lower()
 message = input("Enter your message: ")
 shift_value = int(input("Enter shift value (1-25): "))
